@@ -8,7 +8,7 @@ header{
     padding: 10px 100px;
    
 }
-nav ul{
+nav > ul{
     display: flex;
     font-size: 20px;
     font-weight: bold;
@@ -26,7 +26,7 @@ nav li a{
     text-decoration: none; 
     
 }
-nav li:hover{
+nav li a:hover{
     color: lightskyblue;
     background-color: black;
     font-size: 130%;
@@ -36,4 +36,18 @@ nav li:hover{
 nav img{
     width: 130px;
     margin-bottom: 45px;
+}
+.dropdown{
+    display: none;
+    position: absolute;
+    background-color: aqua;
+    padding: 0;
+}
+nav > ul > li:hover >ul{
+display: block;
+}
+
+.dropdown li{
+    padding: 0;
+    margin: 13px;
 }
