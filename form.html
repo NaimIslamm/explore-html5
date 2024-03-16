@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body{
+            margin: 15px;
+        }
+        fieldset{
+            border: 1px solid rgb(212, 29, 29);
+            background-color: gray;
+            color: black;
+            width: 50%;
+        }
+input{
+    color: black;
+    border: 1px solid rgb(221, 45, 45);
+    background-color: aquamarine;
+}
+legend{
+    font-weight: 800;
+    font-size: 20px;
+    border: 1px solid aquamarine;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <img src="1.png" alt="logo">
+            <ul>
+                <li><a href="#home"></a>Home</li>
+                <li><a href="#service"></a>Service</li>
+                <li><a href="#About Us"></a>About Us</li>
+                <li><a href="#Contact"></a>Contact</li>
+                <li><a href="#blog"></a>Blog</li>
+            </ul>
+   
+        </nav>
+    </header>
+    <h1>Welcome to my fruits shop</h1>
+    <form action="">
+        <p>Name:<input type="text" name="name" value="Enter your Name"></p>
+        <p>Email:<input type="text" name="email" value="Enter your Email"></p>
+        <fieldset>
+            <legend>select your pitha</legend>
+           <p>
+            <label for="chitoy"><input type="radio" name="pitha" id="chitoy">Chitoy</label>
+            </p>
+           <p>
+            <label for="vapa"><input type="radio" name="pitha" id="vapa">Vapa</label>
+            </p>
+           <p>
+            <label for="pakan"><input type="radio" name="pitha" id="pakan">Pakan</label>
+            </p>
+            
+        </fieldset>
+        <fieldset>
+            <legend>
+                select your vorta
+            </legend>
+            <p><label for="sutki"><input type="checkbox" name="vorta" id="sutki">Sutki</label></p>
+            <p><label for="sorisha"><input type="checkbox" name="vorta" id="sorisha">Sorisha</label></p>
+            <p><label for="begun"><input type="checkbox" name="vorta" id="begun"></label>Begun</p>
+        </fieldset>
+        <p>Special Instructions:</p> 
+        <br>
+        <textarea name="instructions" id="" cols="30" rows="10"></textarea>
+        <br>
+        <button type="submit">Submit</button>
+        <button type="reset">Clear</button>
+    </form>
+</body>
+</html>

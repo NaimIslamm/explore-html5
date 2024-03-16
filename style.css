@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+
+}
+header{
+    padding: 10px 100px;
+   
+}
+nav ul{
+    display: flex;
+    font-size: 20px;
+    font-weight: bold;
+    float: right;
+
+}
+nav li{
+    list-style: none;
+    margin-right: 20px;
+    padding: 0px 10px;
+    margin-top: 27px;
+}
+nav li a{
+    color: black;
+    text-decoration: none; 
+    
+}
+nav li:hover{
+    color: lightskyblue;
+    background-color: black;
+    font-size: 130%;
+    
+
+}
+nav img{
+    width: 130px;
+    margin-bottom: 45px;
+}
